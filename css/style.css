@@ -1,0 +1,113 @@
+/*google fonts*/
+
+
+
+
+body {
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+    outline: 0;
+}
+
+.btn {
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.thing1{
+    height: 450px;
+    position: relative;
+    width: 100%;
+}
+.thing1 img{
+    width: 100%;
+}
+.thing2{
+    height: 450px;
+    color: #fff;
+    background: #fb6b19;
+    position: relative;
+    padding-top: 130px;
+    text-align: center;
+    width: 100%;
+}
+
+.thing2 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.thing2 p{
+    padding: 0 150px;
+}
+.thing2::before{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    left: 0;
+    background: #fb6b19;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+.thing2::after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    right: 0;
+    background: #fb6b19;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(-10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
